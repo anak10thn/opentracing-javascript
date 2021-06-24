@@ -1,6 +1,6 @@
-import Span from './span';
-import SpanContext from './span_context';
-import Tracer from './tracer';
+import Span from './span.ts';
+import SpanContext from './span_context.ts';
+import Tracer from './tracer.ts';
 
 export let tracer: Tracer | null = null;
 export let spanContext: SpanContext | null = null;
