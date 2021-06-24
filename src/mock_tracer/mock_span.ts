@@ -1,9 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
-import * as opentracing from '../index';
-import Reference from '../reference';
-import MockContext from './mock_context';
-import MockTracer from './mock_tracer';
+import * as opentracing from '../index.ts';
+import Reference from '../reference.ts';
+import MockContext from './mock_context.ts';
+import MockTracer from './mock_tracer.ts';
 
 interface Log {
     fields: { [key: string]: any };
