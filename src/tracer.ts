@@ -1,8 +1,8 @@
-import * as Functions from './functions';
-import * as Noop from './noop';
-import Reference from './reference';
-import Span from './span';
-import SpanContext from './span_context';
+import * as Functions from './functions.ts';
+import * as Noop from './noop.ts';
+import Reference from './reference.ts';
+import Span from './span.ts';
+import SpanContext from './span_context.ts';
 
 export interface SpanOptions {
 
