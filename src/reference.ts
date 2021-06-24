@@ -1,5 +1,5 @@
-import Span from './span';
-import SpanContext from './span_context';
+import Span from './span.ts';
+import SpanContext from './span_context.ts';
 
 const toContext = (contextOrSpan: SpanContext | Span): SpanContext => {
     if (contextOrSpan instanceof SpanContext) {
