@@ -1,5 +1,5 @@
-import {SpanContext} from '../span_context';
-import MockSpan from './mock_span';
+import {SpanContext} from '../span_context.ts';
+import MockSpan from './mock_span.ts';
 
 /**
  * OpenTracing Context implementation designed for use in
