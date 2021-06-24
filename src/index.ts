@@ -1,12 +1,12 @@
-import BinaryCarrier from './binary_carrier';
-import * as Tags from './ext/tags';
-import * as Noop from './noop';
-import Reference from './reference';
-import Span from './span';
-import SpanContext from './span_context';
-import {SpanOptions, Tracer} from './tracer';
+import BinaryCarrier from './binary_carrier.ts';
+import * as Tags from './ext/tags.ts';
+import * as Noop from './noop.ts';
+import Reference from './reference.ts';
+import Span from './span.ts';
+import SpanContext from './span_context.ts';
+import {SpanOptions, Tracer} from './tracer.ts';
 
-import {MockTracer} from './mock_tracer';
+import {MockTracer} from './mock_tracer.ts';
 
 export {
     BinaryCarrier,
@@ -19,9 +19,9 @@ export {
     MockTracer
 };
 
-export * from './global_tracer';
-export * from './constants';
-export * from './functions';
+export * from './global_tracer.ts';
+export * from './constants.ts';
+export * from './functions.ts';
 
 // Initialize the noops last to avoid a dependecy cycle between the classes.
 Noop.initialize();
