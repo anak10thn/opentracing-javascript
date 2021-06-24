@@ -1,4 +1,4 @@
-import Tracer from './tracer';
+import Tracer from './tracer.ts';
 
 const noopTracer = new Tracer();
 let _globalTracer: Tracer | null = null;
