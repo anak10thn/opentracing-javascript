@@ -6,7 +6,7 @@ import Span from './span.ts';
 import SpanContext from './span_context.ts';
 import {SpanOptions, Tracer} from './tracer.ts';
 
-import {MockTracer} from './mock_tracer.ts';
+import {MockTracer} from './mock_tracer/index.ts';
 
 export {
     BinaryCarrier,
