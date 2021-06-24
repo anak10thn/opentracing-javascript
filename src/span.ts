@@ -1,6 +1,6 @@
-import * as noop from './noop';
-import SpanContext from './span_context';
-import Tracer from './tracer';
+import * as noop from './noop.ts';
+import SpanContext from './span_context.ts';
+import Tracer from './tracer.ts';
 
 /**
  * Span represents a logical unit of work as part of a broader Trace. Examples
