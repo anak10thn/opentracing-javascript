@@ -1,7 +1,7 @@
-import * as Constants from './constants';
-import Reference from './reference';
-import Span from './span';
-import SpanContext from './span_context';
+import * as Constants from './constants.ts';
+import Reference from './reference.ts';
+import Span from './span.ts';
+import SpanContext from './span_context.ts';
 
 /**
  * Return a new REFERENCE_CHILD_OF reference.
