@@ -1,9 +1,9 @@
 
 // TODO: Move mock-tracer to its own NPM package once it is complete and tested.
-import * as opentracing from '../index';
-import MockContext from './mock_context';
-import MockReport from './mock_report';
-import MockSpan from './mock_span';
+import * as opentracing from '../index.ts';
+import MockContext from './mock_context.ts';
+import MockReport from './mock_report.ts';
+import MockSpan from './mock_span.ts';
 
 /**
  * OpenTracing Tracer implementation designed for use in unit tests.
